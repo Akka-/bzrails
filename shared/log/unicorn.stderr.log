@@ -38,3 +38,8 @@ I, [2013-01-30T14:07:35.285942 #13453]  INFO -- : worker=0 ready
 I, [2013-01-30T14:07:35.286866 #13456]  INFO -- : worker=1 ready
 I, [2013-01-30T14:07:35.287562 #13459]  INFO -- : worker=2 ready
 I, [2013-01-30T14:07:35.290346 #13462]  INFO -- : worker=3 ready
+/usr/local/lib/ruby/gems/1.9.1/gems/unicorn-4.5.0/lib/unicorn/http_server.rb:193:in `pid=': Already running on PID:13450 (or pid=/var/www/testapp/shared/pids/unicorn.pid is stale) (ArgumentError)
+	from /usr/local/lib/ruby/gems/1.9.1/gems/unicorn-4.5.0/lib/unicorn/http_server.rb:137:in `start'
+	from /usr/local/lib/ruby/gems/1.9.1/gems/unicorn-4.5.0/bin/unicorn_rails:209:in `<top (required)>'
+	from /usr/local/bin/unicorn_rails:23:in `load'
+	from /usr/local/bin/unicorn_rails:23:in `<main>'
